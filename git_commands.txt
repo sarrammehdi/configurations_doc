@@ -1,0 +1,50 @@
+Git Commands:
+git --version
+git config --global user.name "Mahdi"
+git config --global user.mail "mahdi@gmail.com"
+git config --list
+git help config
+git config --help
+    Test repository:
+    mkdir testfold
+    cd testfold
+    git init
+            mahdi@NCSMSAR MINGW64 ~ (MahdiBranch)
+            $ mkdir testfold
+
+            mahdi@NCSMSAR MINGW64 ~ (MahdiBranch)
+            $ cd testfold/
+
+            mahdi@NCSMSAR MINGW64 ~/testfold (MahdiBranch)
+            $ git init
+            Initialized empty Git repository in C:/Users/mahdi/testfold/.git/
+git status
+git add filename.txt
+git commit -m "this is a committing with commit prompt"
+git diff
+            diff --git a/Git_test_file.txt b/Git_test_file.txt
+            index ba043ae..289c34c 100644
+            --- a/Git_test_file.txt
+            +++ b/Git_test_file.txt
+            @@ -1 +1,2 @@
+            -This is a test file for GIT!!!!
+            \ No newline at end of file
+            +This is a test file for GIT!!!!
+            +This is a new Line to check the Git is working or not !!!!
+            \ No newline at end of file
+Add GitHub username to Git configuration
+    git config --global user.username mahdi-sarram
+add GitHub Repo to Git 
+        git remote add origin https://github.com/sarrammehdi/testrepo_for_git.git
+git push origin master
+git status
+git branch branch01
+git checkout branch01
+            M       Git_test_file.txt
+            Switched to branch 'branch01'
+git add New_Text_info_1.txt
+git commit -m "This file is info 1 for branch one"
+git merge branch01
+-------------------------------------Git Tutorial For Beginners-------------------------------------
+
+
