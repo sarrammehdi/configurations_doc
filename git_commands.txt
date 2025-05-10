@@ -46,5 +46,3 @@ git add New_Text_info_1.txt
 git commit -m "This file is info 1 for branch one"
 git merge branch01
 -------------------------------------Git Tutorial For Beginners-------------------------------------
-
-
