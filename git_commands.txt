@@ -46,3 +46,27 @@ git add New_Text_info_1.txt
 git commit -m "This file is info 1 for branch one"
 git merge branch01
 -------------------------------------Git Tutorial For Beginners-------------------------------------
+git log
+git log --pretty=oneline
+git branch branch_name
+git branch -av to list the branch of local repository
+git checkout branch_name
+git branch -D branch_name
+
+git push origin --delete branch_name ----> to delete from GitHub
+git merge
+git rebase
+git pull origin main 
+git clone https:\\repo_address
+git remote -v 
+git push -u origin master 
+        to push upstream
+
+ssh-keygen -t rsa -C sarrammehdi@gmail.com
+            
+            
+            undo Repo
+git log --pretty=oneline
+git reset --soft cd326fe6d775e8f118fb9466c1d59f59b94462ee
+git revert d4f2c539ba9b1e0e01022fcc4352aa8e9f0195b8
+
